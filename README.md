@@ -1,0 +1,2 @@
+# microservicosTerca
+Repositório USJT Terça
