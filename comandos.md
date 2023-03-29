@@ -26,3 +26,6 @@
 
 `mkdir (dir)`
 - para criar uma pasta chamada (dir)
+
+`cp (ori) (dest)`
+- copia o arquivo em (ori) para (dest)
