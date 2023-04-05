@@ -11,7 +11,7 @@ app.get('/lembretes', (req, res) => {
     res.send(lembretes);
 });
 
-app.put('/lembretes', async (req, res) => {
+app.post('/lembretes', async (req, res) => {
     contador++;
     const { texto } = req.body;
     lembretes[contador] = {

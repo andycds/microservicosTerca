@@ -9,7 +9,7 @@ observacoesPorLembreteId = {};
 
 //:id é um placeholder
 //exemplo: /lembretes/123456/observacoes
-app.put('/lembretes/:id/observacoes', async (req, res) => {
+app.post('/lembretes/:id/observacoes', async (req, res) => {
     const idObs = uuidv4();
     const { texto } = req.body;
     //req.params dá acesso à lista de parâmetros da URL
